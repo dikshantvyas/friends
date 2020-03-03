@@ -1,0 +1,135 @@
+/*###################defaults#####################*/
+nav{
+    display: block;
+}
+body{
+    line-height: 1;
+    margin: 0;
+}
+/*#############background############*/
+body{
+    background-image: url(minimalismlion-1579717427563-4777.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: center;
+    margin: 0px;
+}
+/*#####################images#################*/
+.dikshant{
+    border-radius: 100px;
+    width: 60%;
+    height: 60%;
+}
+.insta{
+    border-radius: 50%;
+    height: 100px;
+    border: 2px solid;
+    width: 100px;
+}
+.anshu{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+}
+.ashwini{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+}
+.avisha{
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    border: 2px solid;
+}
+/*##############levels###############*/
+.level1{
+    background: rgba(255,255,255,.8);
+    width: 80%;
+    margin: auto;
+    
+    box-shadow: 50px; 
+}
+.level2{
+    background: rgba(255,255,255,.8);
+    width: 80%;
+    margin: auto;
+}
+.level3{
+    background: rgba(255,255,255,.6);
+    width: 80%;
+    margin: auto;
+}
+.level4{
+    background: rgba(255,255,255,.6);
+    width: 80%;
+    margin: auto;
+}
+
+.links{
+    color: red;
+}
+
+/*################navbar########################*/
+nav{
+    width: 100%;
+    margin: 0;
+}
+nav ul{
+    background-color: white;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+nav ul li{
+    list-style: none;
+    float: left;
+}
+ul.topnav li.topnav-right{
+    float: right;
+}
+ul.topnav li a{
+    display: block;
+    text-decoration: none;
+    min-height: 16px;
+    text-align: center;
+    padding: 14px;
+    text-transform: uppercase;
+    color: #666;
+}
+ul.topnav li a:hover{
+    background-color: #0080ff;
+    color: white;
+}
+ul.topnav li.dropdownicon{
+    display: none;
+}
+/*##############mobile##############*/
+@media screen and (max-width:680px) {
+    ul.topnav li:not(:nth-child(1)) {
+        display: none;
+    }
+    ul.topnav li.dropdownicon{
+        display: block;
+        float: right;
+    }
+    ul.topnav.responsive{
+        position: relative;
+    }
+    ul.topnav.responsive li{
+        display: inline;
+        float: none;
+    }
+    ul.topnav.responsive li a{
+        display: block;
+        text-align: left;
+    }
+    ul.topnav.responsive li.dropdownicon{
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    
+}
